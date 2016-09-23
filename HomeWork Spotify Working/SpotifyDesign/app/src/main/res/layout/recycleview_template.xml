@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id = "@+id/relative">
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:id="@+id/textView"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp" />
+    <ImageView
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_below="@id/textView"
+        android:id="@+id/imageView"
+        android:visibility="visible"
+        android:src="@drawable/verybasicdownloadicon"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtViewExplicit"
+        android:text="EXPLICIT"
+        android:textSize="12sp"
+        android:textColor="@color/colorExplicitText"
+        android:background="@color/colorExplicitBackground"
+        android:layout_below="@id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"/>dp
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/txtViewExplicit"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="-5dp"
+        android:layout_below="@id/textView"
+        android:text="sss"
+        android:id="@+id/textView2"
+        android:textSize="13sp"
+        android:textColor="@color/colorSpotifyText"/>
+
+</RelativeLayout>
